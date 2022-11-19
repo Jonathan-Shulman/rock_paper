@@ -1,0 +1,53 @@
+ body{
+    background-color:honeydew ;
+    color: burlywood;
+    font-family: sans-serif;
+
+
+ }
+ #buttons{
+    display: flex;
+    height: 150px;
+    background-color: olivedrab;
+    justify-content: space-between;
+    gap: 120px;
+
+ }
+ #buttons button{
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    height: 125px;
+    width: 200px;
+    font-size: 45px;
+    background-color: black;
+    color:whitesmoke;
+
+ }
+
+ #msg{
+    height: 100px;
+    background-color: antiquewhite;
+ }
+ #scoreline{
+    height: 450px;
+    font-size: 60px;
+    text-align: center;
+
+
+ }
+ p#cur-score{
+    text-align:center;
+    font-size: 45px;
+
+ }
+ #flex-container{
+    display:flex;
+    flex-direction: column;
+    gap: 150px;
+
+ }
+ #play-again{
+    height:fit-content;
+    background-color: brown;
+ }
